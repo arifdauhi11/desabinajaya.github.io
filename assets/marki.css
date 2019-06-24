@@ -1,0 +1,39 @@
+.marquee {
+	position: relative;
+	overflow: hidden;
+	padding: 5px 0px;
+	height: 28px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-top: 2px;
+	color: white;
+	background-color: rgb(10, 124, 230);
+	-webkit-box-shadow: 4px 8px rgb(42, 143, 224), -4px 0 8px rgb(42, 143, 224);
+	-moz-box-shadow: 4px 0 8px rgb(42, 143, 224), -4px 0 8px rgb(42, 143, 224);
+	box-shadow: 4px 0 8px rgb(42, 143, 224), -4px 0 8px rgb(42, 143, 224);
+}
+
+.marquee span {
+	white-space: nowrap;
+}
+
+.marquee a {
+	color: white;
+	text-decoration: none;
+}
+
+.marquee a:focus {
+	color: white;
+	text-decoration: none;
+}
+
+.marquee a:active {
+	color: white;
+	text-decoration: none;
+}
+
+.marquee a:hover {
+	color: orange;
+	text-decoration: none;
+}
